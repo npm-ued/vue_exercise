@@ -1,0 +1,90 @@
+/*  css reset  */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+input[type=checkbox] {
+  -webkit-appearance: checkbox;
+}
+
+input[type=radio] {
+  -webkit-appearance: radio;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+caption, th {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before, q:after {
+  content: "";
+}
+
+abbr, acronym {
+  border: 0;
+}
+/* 按钮开始 */
+.bigBtn {
+  background: #ee3939;
+  color: #fff;
+  font-size: 16px;
+  line-height: 38px;
+  border-radius: 4px;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+}
+
+.bigBtn.disable {
+  background-color: #ccc;
+}
+
+/* 按钮结束 */
+.number {
+  font-family: Helvetica;
+}
+
+body {
+  font-size: 12px;
+  color: #000;
+  font-family: "Microsoft Yahei";
+  letter-spacing: 0.4px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"], input[type="text"] {
+  -webkit-appearance: none;
+}

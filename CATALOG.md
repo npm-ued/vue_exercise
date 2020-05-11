@@ -1,0 +1,54 @@
+## 目录说明
+* mock mock数据
+* dist 上线目录
+* public 公共文件夹
+  * index.html 项目首页的模版
+  * favicon.ico 网页title图标
+* src 源码目录
+  * assets 静态资源
+    * images 图片资源
+    * js 脚本
+      * config.js 状态字典库
+      * interceptor.js 公共网络类库
+      * rules.js 公共表单校验类库
+      * util.js 工具类方法库
+    * libs 第三方静态资源库
+    * styles 样式
+      * common
+        * common.scss 公共样式
+        * reset.scss 样式基础库
+        * site.scss Swiper样式未压缩
+        * swipe.scss Swiper样式压缩
+      * homepage 首页样式
+  * config 配置文件（一般不需要特殊配置）
+  * i18n 本地化语言包
+    * en-US 美式英语
+    * zh-CN 简体中文（目录同en-US目录的简体中文语言包）
+    * index.js（本地化导出语言包）
+  * router 路由配置
+    * index.js 路由处理（路由公共处理）
+    * modules 各个功能模块路由文件
+      * index.js 获取module目录下的所有路由
+      * default.js 首页默认路由
+  * store 全局状态管理
+    * index.js 状态汇总
+    * modules 不同类型状态
+      * app.js 公共模块的状态管理
+      * axios.js 请求状态管理
+      * downLoad.js 下载状态管理
+      * user.js 用户账户状态管理
+  * views 页面
+    * components 页面组件
+      * tableFilter 列表选择
+      * uploadFile 文件上传
+    * test 测试
+  * app.vue 根组件
+  * main.js 入口文件
+  * main.vue 架构组件（导航、菜单、内容）
+* CATALOG.md 目录文档
+* dev.server.default.js 开发服务相关配置默认模版页面
+* dev.server.js 开发服务配置文件（需要自己手动新建，复制dev.server.default.js模版内容，更改自己的配置信息，该文件默认被忽略）
+* package-lock.json npm的lock 版本信息
+* package.json nodejs依赖和项目基本信息
+* README.md 项目的基本信息文档
+* vue.config.js vue-cli的相关配置文件

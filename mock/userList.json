@@ -1,0 +1,42 @@
+{
+  "code": 0,
+  "data": {
+    "endRow": 0,
+    "firstPage": 0,
+    "hasNextPage": true,
+    "hasPreviousPage": true,
+    "isFirstPage": true,
+    "isLastPage": true,
+    "lastPage": 0,
+    "list|10": [
+      {
+        "birthday": "2020-04-28T08:37:43.231Z",
+        "firstName": "@cname()",
+        "idCardNo": "@id()",
+        "idCardType": "",
+        "lastName": "@cname()",
+        "middleName": "@cname()",
+        "mobile|18800000000-18899999999": 0,
+        "regTime": "2020-04-28T08:37:43.231Z",
+        "sex|1": ["MALE", "FEMALE"],
+        "status|1": ["NORMAL"],
+        "uname": "@id()"
+      }
+    ],
+    "navigateFirstPage": 0,
+    "navigateLastPage": 0,
+    "navigatePages": 0,
+    "navigatepageNums": [
+      0
+    ],
+    "nextPage": 0,
+    "pageNum": 10,
+    "pageSize": 0,
+    "pages": 0,
+    "prePage": 0,
+    "size": 0,
+    "startRow": 0,
+    "total|30-80": 100
+  },
+  "msg": "string"
+}
